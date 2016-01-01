@@ -5,6 +5,10 @@ $params = require(__DIR__ . '/params.php');
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
+    'aliases' => [
+        //此别名在Application.php中预定义了,但是不知道为什么,路径对不起来
+        '@bower' => dirname(__DIR__) . DIRECTORY_SEPARATOR . 'vendor' .DIRECTORY_SEPARATOR . 'bower-asset',
+    ],
     'bootstrap' => ['log'],
     'components' => [
         'request' => [
