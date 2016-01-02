@@ -1,3 +1,12 @@
+注意事项
+=======
+
+~~~
+composer global require "fxp/composer-asset-plugin:~1.1.1"
+~~~
+
+注意版本号为1.1.1,否则静态资源会有问题
+
 Yii 2 Basic Project Template
 ============================
 
