@@ -40,8 +40,8 @@
             ]
         },
         "asset-installer-paths": {
-            "npm-asset-library": "vendor",
-            "bower-asset-library": "vendor"
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     }
 }
